@@ -107,10 +107,10 @@ Open the Command Prompt:
 Press Win + R, type cmd, and hit Enter.
 Run the following command:
 
-'''
+```
 ipconfig
 
-'''
+```
 Look for the IPv4 Address under your active network connection. This is your local IP address.
 
 For macOS/Linux:
@@ -120,16 +120,16 @@ For macOS: Press Command + Space, type Terminal, and hit Enter.
 For Linux: Open the Terminal from your system menu.
 Run the following command:
 
-'''
+```
 ifconfig
 
-'''
+```
 or
 
-'''
+```
 ip addr show
 
-'''
+```
 Look for the inet field under your active network interface (usually eth0, wlan0, or en0). The address shown is your local IP.
 
 ## Note:
