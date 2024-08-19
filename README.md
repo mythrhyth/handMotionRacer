@@ -1,5 +1,5 @@
 
-# MotionRacer
+# handMotionRacer
 
 Welcome to the MotionRacer This endless runner-style game features a dynamic car racing experience where you navigate through a highway filled with obstacles and collect power-ups.
 
@@ -138,29 +138,8 @@ Look for the inet field under your active network interface (usually eth0, wlan0
 ## Clone the Repository
 Clone the Repository:
 ```
-git clone https://github.com/abhishekpanthee/MotionRacer.git
-cd MotionRacer
-```
-### Build the Project
-Create a Build Directory:
-```
-mkdir build
-cd build
-```
-#### Generate Build Files with CMake:
-
-```
-cmake ..
-cmake --build .
-```
-### Compile the Project:
-
-```
-make
-```
-#### Run the Game
-```
-./MotionRacer
+git clone https://github.com/mythrhyth/handMotionRacer.git
+cd handMotionRacer
 ```
 
 # Troubleshooting
