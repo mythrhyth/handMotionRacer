@@ -13,7 +13,7 @@ In this game, you control a car that drives on a three-lane highway. The goal is
 - Scoring System: Earn points based on distance traveled and obstacles avoided.
 - Leaderboards: Compete with other players and share your high scores.
 ## Gameplay
-- Controls: Use touch controls to switch lanes and maneuver your car and guestures as well 
+- Controls: Use touch controls to switch lanes and maneuver your car and gestures as well 
 - Objective: Avoid obstacles, collect power-ups, and survive as long as possible to achieve a high score.
 
 
@@ -96,8 +96,44 @@ pip install opencv-python
 ```
 
 This will build a sample project to verify your installation.
-Before running make sure to use your ipaddress in hand_tracking_server.py file and Car.cpp file (intializeSocket() function)
 
+Before running make sure to use your ipaddress in hand_tracking_server.py file and Car.cpp file (intializeSocket() function)
+To view your IP Adress in local machine:
+## Methods to View IP Address
+1. Viewing Internal (Local) IP Address
+For Windows:
+Open the Command Prompt:
+
+Press Win + R, type cmd, and hit Enter.
+Run the following command:
+
+'''
+ipconfig
+
+'''
+Look for the IPv4 Address under your active network connection. This is your local IP address.
+
+For macOS/Linux:
+Open the Terminal:
+
+For macOS: Press Command + Space, type Terminal, and hit Enter.
+For Linux: Open the Terminal from your system menu.
+Run the following command:
+
+'''
+ifconfig
+
+'''
+or
+
+'''
+ip addr show
+
+'''
+Look for the inet field under your active network interface (usually eth0, wlan0, or en0). The address shown is your local IP.
+
+## Note:
+ Before running the cpp Project. You have to run the hand_tracking_server.py file on your command prompt for establishing connection. You may even have to change your port number in rare cases.
 
 ## Clone the Repository
 Clone the Repository:
