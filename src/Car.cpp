@@ -122,7 +122,7 @@ bool Car::checkCollision(std::vector<PowerUp>& powerUps) {
 }
 
 void Car::initializeSocket() {
-    const char* serverIP = "192.168.1.8"; // Replace with your server IP
+    const char* serverIP = "192.168.1.x"; // Replace with your server IP
     int serverPort = 65432;
 
     // Initialize Winsock
