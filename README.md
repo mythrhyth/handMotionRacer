@@ -72,12 +72,12 @@ Install SFML via apt :
 sudo apt-get install libsfml-dev
 ```
 ### Installing Mediapipe
-1. Installing MediaPipe via pip
+# Installing MediaPipe via pip
 The easiest way to install MediaPipe is through pip:
 ```
 pip install mediapipe
 ```
-2. Installing from Source (Optional)
+# Installing from Source (Optional)
 If you want to customize or contribute to MediaPipe, you can build and install it from source:
 
 ```
@@ -85,10 +85,10 @@ git clone https://github.com/google/mediapipe.git
 cd mediapipe
 ```
 
-Install Dependencies:
+## Install Dependencies:
 Make sure you have the following dependencies installed:
 
-OpenCV: Required to need to work with images and video streams:
+# OpenCV: Required to need to work with images and video streams:
 
 ```
 pip install opencv-python
@@ -101,7 +101,7 @@ Before running make sure to use your ipaddress in hand_tracking_server.py file a
 To view your IP Adress in local machine:
 ## Methods to View IP Address
 1. Viewing Internal (Local) IP Address
-For Windows:
+# For Windows:
 Open the Command Prompt:
 
 Press Win + R, type cmd, and hit Enter.
@@ -113,7 +113,7 @@ ipconfig
 ```
 Look for the IPv4 Address under your active network connection. This is your local IP address.
 
-For macOS/Linux:
+# For macOS/Linux:
 Open the Terminal:
 
 For macOS: Press Command + Space, type Terminal, and hit Enter.
