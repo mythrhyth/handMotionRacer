@@ -3,7 +3,7 @@ import HandTrackingModule as htm
 import socket
 
 # Set up the socket
-host = '192.168.1.8'  # Your local IP address
+host = '192.168.1.x'  # Your local IP address
 port = 65432  # Port number
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
