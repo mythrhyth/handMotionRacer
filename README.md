@@ -91,11 +91,11 @@ Make sure you have the following dependencies installed:
 ### OpenCV: Required to need to work with images and video streams:
 
 ```
-pip install opencv-python
+pip install opencv-contrib-python
 
 ```
 
-This will build a sample project to verify your installation.
+
 
 Before running make sure to use your ipaddress in hand_tracking_server.py file and Car.cpp file (intializeSocket() function)
 To view your IP Adress in local machine:
